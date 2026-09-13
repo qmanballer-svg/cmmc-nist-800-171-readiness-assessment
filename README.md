@@ -8,7 +8,7 @@ A hands-on cybersecurity GRC portfolio project simulating a CMMC Level 2 / NIST 
 
 Demonstrate an end-to-end GRC assessment workflow:
 
-**scope → system boundary → control assessment → evidence → findings → risk → remediation → POA&M/readiness reporting**
+**scope → system boundary → control assessment → evidence → findings → risk → remediation → governance → POA&M/readiness reporting**
 
 The project is designed to show practical capability in:
 
@@ -18,6 +18,7 @@ The project is designed to show practical capability in:
 - evidence collection and traceability
 - control testing using examine / interview / test methods
 - risk assessment and risk-register management
+- cybersecurity governance assessment
 - security-control gap analysis
 - remediation planning
 - POA&M concepts and tracking
@@ -72,7 +73,8 @@ See [`01_scope/organization_profile.md`](01_scope/organization_profile.md) and [
 │   ├── poam_tracker.csv
 │   └── remediation_roadmap.md
 └── 07_reports/
-    └── executive_summary.md
+    ├── executive_summary.md
+    └── governance_assessment.md
 ```
 
 ## Assessment approach
@@ -99,8 +101,9 @@ The repository contains:
 4. a risk methodology and risk register;
 5. documented example findings;
 6. a remediation / POA&M-style tracker;
-7. a prioritized 30/60/90-day remediation roadmap; and
-8. an executive summary suitable for leadership review.
+7. a prioritized 30/60/90-day remediation roadmap;
+8. a formal cybersecurity governance maturity assessment with KPIs, KRIs, decision rights, review cadence, and accountability model; and
+9. an executive summary suitable for leadership review.
 
 ## Author
 
