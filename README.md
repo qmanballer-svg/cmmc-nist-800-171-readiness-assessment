@@ -4,6 +4,10 @@ A hands-on cybersecurity GRC portfolio project simulating a CMMC Level 2 / NIST 
 
 > **Portfolio simulation:** All organizations, systems, users, findings, evidence, and risk data in this repository are fictional. No real customer, employer, government, CUI, confidential, or proprietary information is used.
 
+## Start here
+
+For a fast review of the project, see [`PORTFOLIO_OVERVIEW.md`](PORTFOLIO_OVERVIEW.md). It provides a five-minute path through the scope, 110-control matrix, evidence, findings, risk register, remediation artifacts, governance assessment, and executive reporting.
+
 ## Project objective
 
 Demonstrate an end-to-end GRC assessment workflow:
@@ -15,12 +19,13 @@ The project is designed to show practical capability in:
 - CMMC Level 2 readiness
 - NIST SP 800-171 Rev. 2 control assessment
 - CUI scoping and system-boundary analysis
-- evidence collection and traceability
+- evidence collection, sufficiency, and traceability
 - control testing using examine / interview / test methods
 - risk assessment and risk-register management
+- risk acceptance and time-bound exception concepts
 - cybersecurity governance assessment
 - security-control gap analysis
-- remediation planning
+- remediation planning and validated closure
 - POA&M concepts and tracking
 - System Security Plan (SSP) concepts
 - executive risk communication
@@ -55,6 +60,7 @@ See [`01_scope/organization_profile.md`](01_scope/organization_profile.md) and [
 ```text
 .
 ├── README.md
+├── PORTFOLIO_OVERVIEW.md
 ├── DISCLAIMER.md
 ├── 01_scope/
 │   ├── organization_profile.md
@@ -64,9 +70,11 @@ See [`01_scope/organization_profile.md`](01_scope/organization_profile.md) and [
 │   └── cmmc_level_2_control_matrix.csv
 ├── 03_risk/
 │   ├── risk_methodology.md
-│   └── risk_register.csv
+│   ├── risk_register.csv
+│   └── risk_acceptance_exception_register.csv
 ├── 04_evidence/
-│   └── evidence_request_list.csv
+│   ├── evidence_request_list.csv
+│   └── evidence_traceability_matrix.csv
 ├── 05_findings/
 │   └── findings_report.md
 ├── 06_remediation/
@@ -74,6 +82,7 @@ See [`01_scope/organization_profile.md`](01_scope/organization_profile.md) and [
 │   └── remediation_roadmap.md
 └── 07_reports/
     ├── executive_summary.md
+    ├── assurance_dashboard.md
     └── governance_assessment.md
 ```
 
@@ -97,13 +106,15 @@ The repository contains:
 
 1. a full 110-requirement CMMC Level 2 control matrix;
 2. a defined CUI environment and assessment boundary;
-3. an evidence-request catalog;
+3. an evidence-request catalog and finding-to-evidence traceability matrix;
 4. a risk methodology and risk register;
-5. documented example findings;
-6. a remediation / POA&M-style tracker;
-7. a prioritized 30/60/90-day remediation roadmap;
-8. a formal cybersecurity governance maturity assessment with KPIs, KRIs, decision rights, review cadence, and accountability model; and
-9. an executive summary suitable for leadership review.
+5. a risk-acceptance / exception register with compensating-control examples;
+6. documented example findings;
+7. a remediation / POA&M-style tracker;
+8. a prioritized 30/60/90-day remediation roadmap;
+9. a formal cybersecurity governance maturity assessment with KPIs, KRIs, decision rights, review cadence, and accountability model;
+10. an assurance dashboard for management reporting; and
+11. an executive summary suitable for leadership review.
 
 ## Author
 
