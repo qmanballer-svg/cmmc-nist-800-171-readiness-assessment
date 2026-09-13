@@ -1,0 +1,33 @@
+Evidence ID,Category,Requested Artifact,Primary Control Families,Assessment Method,Owner,Status,Notes
+E-001,Governance,Current System Security Plan (SSP),CA;SC,Examine,GRC Lead,Received,Fictional final approved SSP used to establish environment and control implementation context.
+E-002,Scope,CUI data-flow and network diagrams,AC;CA;SC,Examine,Network Security,Received,Shows corporate/CUI boundary remote access and manufacturing-support connection.
+E-003,Scope,In-scope asset inventory,CM;CA;RA,Examine,IT Operations,Received,Includes managed endpoints servers network devices and security-protection assets.
+E-004,Identity,Authorized user and role listing,AC;IA,Examine,IAM Lead,Received,Used to validate users roles and privileged access.
+E-005,Identity,Privileged-role assignment export,AC;IA,Examine/Test,IAM Lead,Received,Finding identified inconsistent quarterly access-review evidence.
+E-006,Identity,MFA / Conditional Access configuration,IA;AC,Examine/Test,IAM Lead,Received,Used to validate MFA and remote-access enforcement.
+E-007,Identity,Joiner-mover-leaver procedure,AC;IA;PS,Examine/Interview,HR / IAM,Received,Identifier-handling documentation gap noted.
+E-008,Remote Access,VPN configuration and access-control rules,AC;SC,Examine/Test,Network Security,Received,Split-tunnel enforcement gap found on selected profiles.
+E-009,Remote Access,VPN session and authentication logs,AC;AU,Examine,Network Security,Partial,Periodic review evidence incomplete.
+E-010,Logging,Sentinel data-connector inventory,AU;SI,Examine/Test,SOC Lead,Received,One manufacturing-support visibility gap documented.
+E-011,Logging,Security-event review procedure and review records,AU;SI,Examine/Interview,SOC Lead,Partial,Review cadence is not evidenced consistently for all sources.
+E-012,Configuration,Approved endpoint configuration baseline,CM,Examine/Test,Endpoint Security,Received,Endpoint baseline current.
+E-013,Configuration,Approved server configuration baselines,CM,Examine/Test,Infrastructure Lead,Partial,Two server classes require approved baselines.
+E-014,Configuration,Change tickets and security-impact review samples,CM,Examine/Interview,IT Operations,Received,Sampled changes show approvals and testing.
+E-015,Endpoint Security,Application-control / allowlisting policy and deployment report,CM;SI,Examine/Test,Endpoint Security,Partial,Not enforced on all engineering workstations.
+E-016,Endpoint Security,Defender for Endpoint policy / health evidence,SI,Examine/Test,Endpoint Security,Received,Used for malware protection and endpoint monitoring objectives.
+E-017,Training,Security awareness and role-based training records,AT,Examine/Interview,Security Awareness,Received,Includes insider-threat content.
+E-018,Incident Response,Incident response plan and escalation matrix,IR,Examine/Interview,Security Manager,Received,Plan exists and is approved.
+E-019,Incident Response,Tabletop exercise report and corrective actions,IR,Examine/Test,Security Manager,Missing,No completed exercise for current assessment period.
+E-020,Media,Removable-media inventory and checkout log,MP,Examine/Interview,IT Operations,Partial,Inventory reconciliation needed.
+E-021,Media,Media encryption and sanitization procedure,MP;MA,Examine/Test,IT Operations,Received,Encrypted removable media required.
+E-022,Physical Security,Badge access records and visitor logs,PE,Examine,Facilities Security,Partial,Retention differs between controlled areas.
+E-023,Risk,Risk assessment and risk register,RA;CA,Examine/Interview,GRC Lead,Received,Portfolio risk register created from control gaps.
+E-024,Vulnerability Management,Authenticated vulnerability scan results,RA;SI,Examine/Test,Vulnerability Management,Partial,Intermittently connected engineering laptops are not consistently scanned.
+E-025,Vulnerability Management,Patch / remediation tickets,RA;SI,Examine,IT Operations,Received,Used to validate remediation process and closure evidence.
+E-026,Security Assessment,Annual security-control assessment report,CA,Examine,GRC Lead,Missing,Current-cycle assessment not formally completed.
+E-027,Security Assessment,Continuous monitoring plan and metrics,CA;AU;SI,Examine/Interview,GRC Lead,Received,Defines monitoring sources owners and frequencies.
+E-028,Network Security,Firewall rulebase and rule-review evidence,AC;SC,Examine/Test,Network Security,Received,Used for boundary and communication-by-exception requirements.
+E-029,Cryptography,Encryption configuration / key-management evidence,AC;MP;SC,Examine/Test,Security Engineering,Received,Used for CUI in transit at rest and portable media.
+E-030,Threat Management,Security alert / advisory intake and disposition records,SI,Examine/Interview,SOC Lead,Partial,Process exists but disposition workflow is not consistently documented.
+E-031,Backups,Backup policy configuration and restore-test evidence,MP;CP,Examine/Test,IT Operations,Received,Supports protected backup workflow; CP is contextual and not a CMMC Level 2 family.
+E-032,Personnel,Screening and termination process samples,PS;IA;AC,Examine/Interview,HR / Security,Received,Sample evidence supports screening and separation actions.
