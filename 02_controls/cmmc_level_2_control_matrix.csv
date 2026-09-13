@@ -1,0 +1,111 @@
+Control ID,Family,Requirement,Assessment Status,Risk ID,Control Owner,Assessment Note
+AC.L2-3.1.1,Access Control,Authorized Access Control [CUI Data],MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.2,Access Control,Transaction & Function Control,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.3,Access Control,Control CUI Flow,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.4,Access Control,Separation of Duties,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.5,Access Control,Least Privilege,NOT MET,R-001,IAM Lead,Quarterly privileged-access review is not consistently completed for all enclave admin roles.
+AC.L2-3.1.6,Access Control,Non-Privileged Account Use,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.7,Access Control,Privileged Functions,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.8,Access Control,Unsuccessful Logon Attempts,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.9,Access Control,Privacy & Security Notices,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.10,Access Control,Session Lock,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.11,Access Control,Session Termination,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.12,Access Control,Control Remote Access,NOT MET,R-002,Network Security,Remote-access session monitoring and periodic review evidence is incomplete.
+AC.L2-3.1.13,Access Control,Remote Access Confidentiality,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.14,Access Control,Remote Access Routing,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.15,Access Control,Privileged Remote Access,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.16,Access Control,Wireless Access Authorization,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.17,Access Control,Wireless Access Protection,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.18,Access Control,Mobile Device Connection,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.19,Access Control,Encrypt CUI on Mobile,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.20,Access Control,External Connections [CUI Data],MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.21,Access Control,Portable Storage Use,MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AC.L2-3.1.22,Access Control,Control Public Information [CUI Data],MET,,IAM / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AT.L2-3.2.1,Awareness and Training,Role-Based Risk Awareness,MET,,Security Awareness,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AT.L2-3.2.2,Awareness and Training,Role-Based Training,MET,,Security Awareness,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AT.L2-3.2.3,Awareness and Training,Insider Threat Awareness,MET,,Security Awareness,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AU.L2-3.3.1,Audit and Accountability,System Auditing,MET,,SOC / Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AU.L2-3.3.2,Audit and Accountability,User Accountability,MET,,SOC / Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AU.L2-3.3.3,Audit and Accountability,Event Review,NOT MET,R-003,SOC Lead,Documented review cadence for security events is not consistently evidenced across all log sources.
+AU.L2-3.3.4,Audit and Accountability,Audit Failure Alerting,MET,,SOC / Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AU.L2-3.3.5,Audit and Accountability,Audit Correlation,MET,,SOC / Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AU.L2-3.3.6,Audit and Accountability,Reduction & Reporting,MET,,SOC / Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AU.L2-3.3.7,Audit and Accountability,Authoritative Time Source,MET,,SOC / Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AU.L2-3.3.8,Audit and Accountability,Audit Protection,MET,,SOC / Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+AU.L2-3.3.9,Audit and Accountability,Audit Management,MET,,SOC / Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CM.L2-3.4.1,Configuration Management,System Baselining,NOT MET,R-004,Infrastructure Lead,Approved configuration baselines are incomplete for two enclave server classes.
+CM.L2-3.4.2,Configuration Management,Security Configuration Enforcement,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CM.L2-3.4.3,Configuration Management,System Change Management,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CM.L2-3.4.4,Configuration Management,Security Impact Analysis,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CM.L2-3.4.5,Configuration Management,Access Restrictions for Change,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CM.L2-3.4.6,Configuration Management,Least Functionality,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CM.L2-3.4.7,Configuration Management,Nonessential Functionality,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CM.L2-3.4.8,Configuration Management,Application Execution Policy,NOT MET,R-005,Endpoint Security,Application allowlisting is not enforced on all engineering workstations in the enclave.
+CM.L2-3.4.9,Configuration Management,User-Installed Software,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.1,Identification and Authentication,Identification [CUI Data],MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.2,Identification and Authentication,Authentication [CUI Data],MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.3,Identification and Authentication,Multifactor Authentication,MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.4,Identification and Authentication,Replay-Resistant Authentication,MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.5,Identification and Authentication,Identifier Reuse,MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.6,Identification and Authentication,Identifier Handling,NOT MET,R-006,IAM Lead,Account identifier disablement and reuse procedure is inconsistently documented after separation.
+IA.L2-3.5.7,Identification and Authentication,Password Complexity,MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.8,Identification and Authentication,Password Reuse,MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.9,Identification and Authentication,Temporary Passwords,MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.10,Identification and Authentication,Cryptographically-Protected Passwords,MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IA.L2-3.5.11,Identification and Authentication,Obscure Feedback,MET,,IAM,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IR.L2-3.6.1,Incident Response,Incident Handling,MET,,Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IR.L2-3.6.2,Incident Response,Incident Reporting,MET,,Security Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+IR.L2-3.6.3,Incident Response,Incident Response Testing,NOT MET,R-007,Security Manager,No completed incident-response tabletop exercise is available for the current assessment period.
+MA.L2-3.7.1,Maintenance,Perform Maintenance,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MA.L2-3.7.2,Maintenance,System Maintenance Control,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MA.L2-3.7.3,Maintenance,Equipment Sanitization,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MA.L2-3.7.4,Maintenance,Media Inspection,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MA.L2-3.7.5,Maintenance,Nonlocal Maintenance,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MA.L2-3.7.6,Maintenance,Maintenance Personnel,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MP.L2-3.8.1,Media Protection,Media Protection,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MP.L2-3.8.2,Media Protection,Media Access,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MP.L2-3.8.3,Media Protection,Media Disposal [CUI Data],MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MP.L2-3.8.4,Media Protection,Media Markings,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MP.L2-3.8.5,Media Protection,Media Accountability,NOT MET,R-008,IT Operations,Removable-media checkout and return records are incomplete for a small set of encrypted media.
+MP.L2-3.8.6,Media Protection,Portable Storage Encryption,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MP.L2-3.8.7,Media Protection,Removable Media,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MP.L2-3.8.8,Media Protection,Shared Media,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+MP.L2-3.8.9,Media Protection,Protect Backups,MET,,IT Operations,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+PS.L2-3.9.1,Personnel Security,Screen Individuals,MET,,HR / Security,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+PS.L2-3.9.2,Personnel Security,Personnel Actions,MET,,HR / Security,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+PE.L2-3.10.1,Physical Protection,Limit Physical Access [CUI Data],MET,,Facilities Security,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+PE.L2-3.10.2,Physical Protection,Monitor Facility,MET,,Facilities Security,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+PE.L2-3.10.3,Physical Protection,Escort Visitors [CUI Data],MET,,Facilities Security,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+PE.L2-3.10.4,Physical Protection,Physical Access Logs [CUI Data],NOT MET,R-009,Facilities Security,Visitor and physical-access log retention is inconsistent between the primary and secondary controlled areas.
+PE.L2-3.10.5,Physical Protection,Manage Physical Access [CUI Data],MET,,Facilities Security,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+PE.L2-3.10.6,Physical Protection,Alternative Work Sites,MET,,Facilities Security,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+RA.L2-3.11.1,Risk Assessment,Risk Assessments,MET,,GRC / Vulnerability Management,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+RA.L2-3.11.2,Risk Assessment,Vulnerability Scan,NOT MET,R-010,Vulnerability Management,Quarterly authenticated vulnerability scans do not yet include all intermittently connected engineering laptops.
+RA.L2-3.11.3,Risk Assessment,Vulnerability Remediation,MET,,GRC / Vulnerability Management,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CA.L2-3.12.1,Security Assessment,Security Control Assessment,NOT MET,R-011,GRC Lead,The annual security-control assessment has not been formally completed and approved for the current cycle.
+CA.L2-3.12.2,Security Assessment,Operational Plan of Action,MET,,GRC,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CA.L2-3.12.3,Security Assessment,Security Control Monitoring,MET,,GRC,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+CA.L2-3.12.4,Security Assessment,System Security Plan,MET,,GRC,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.1,System and Communications Protection,Boundary Protection [CUI Data],MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.2,System and Communications Protection,Security Engineering,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.3,System and Communications Protection,Role Separation,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.4,System and Communications Protection,Shared Resource Control,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.5,System and Communications Protection,Public-Access System Separation [CUI Data],NOT APPLICABLE,,Network / Security Engineering,No publicly accessible system is included in the fictional CUI assessment scope.
+SC.L2-3.13.6,System and Communications Protection,Network Communication by Exception,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.7,System and Communications Protection,Split Tunneling,NOT MET,R-012,Network Security,Technical enforcement preventing split tunneling is not consistently demonstrated for all remote-access profiles.
+SC.L2-3.13.8,System and Communications Protection,Data in Transit,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.9,System and Communications Protection,Connections Termination,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.10,System and Communications Protection,Key Management,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.11,System and Communications Protection,CUI Encryption,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.12,System and Communications Protection,Collaborative Device Control,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.13,System and Communications Protection,Mobile Code,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.14,System and Communications Protection,Voice over Internet Protocol,NOT APPLICABLE,,Network / Security Engineering,VoIP is not used within the fictional CUI enclave.
+SC.L2-3.13.15,System and Communications Protection,Communications Authenticity,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SC.L2-3.13.16,System and Communications Protection,Data at Rest,MET,,Network / Security Engineering,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SI.L2-3.14.1,System and Information Integrity,Flaw Remediation [CUI Data],MET,,SOC / Vulnerability Management,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SI.L2-3.14.2,System and Information Integrity,Malicious Code Protection [CUI Data],MET,,SOC / Vulnerability Management,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SI.L2-3.14.3,System and Information Integrity,Security Alerts & Advisories,NOT MET,R-013,SOC Lead,Threat/advisory intake is performed but the triage and disposition workflow is not consistently documented.
+SI.L2-3.14.4,System and Information Integrity,Update Malicious Code Protection [CUI Data],MET,,SOC / Vulnerability Management,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SI.L2-3.14.5,System and Information Integrity,System & File Scanning [CUI Data],MET,,SOC / Vulnerability Management,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
+SI.L2-3.14.6,System and Information Integrity,Monitor Communications for Attacks,NOT MET,R-014,SOC Lead,Network monitoring coverage has a documented visibility gap for one manufacturing-support segment connected to the enclave boundary.
+SI.L2-3.14.7,System and Information Integrity,Identify Unauthorized Use,MET,,SOC / Vulnerability Management,Synthetic evidence package supports all applicable assessment objectives for this portfolio scenario.
